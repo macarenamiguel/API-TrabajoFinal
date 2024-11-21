@@ -1,0 +1,194 @@
+{
+  "clientes": [
+    {
+      "id": 1,
+      "name": "Juan Pérez",
+      "direccion": "Calle Falsa 123",
+      "telefono": "123456789",
+      "email": "juan.perez@example.com"
+    },
+    {
+      "id": 2,
+      "name": "María Gómez",
+      "direccion": "Av. Siempre Viva 456",
+      "telefono": "987654321",
+      "email": "maria.gomez@example.com"
+    },
+    {
+      "id": 3
+    },
+    {
+      "id": 4,
+      "name": "Leonidas Herrera",
+      "direccion": "Calle Falsa 124",
+      "telefono": "1234567",
+      "email": "leonidas.herre@example.com"
+    }
+  ],
+  "productos": [
+    {
+      "id": 1,
+      "name": "Laptop",
+      "precio": 1500,
+      "stock": 10
+    },
+    {
+      "id": 2,
+      "name": "Mouse inalámbrico",
+      "precio": 20,
+      "stock": 50
+    },
+    {
+      "id": 3,
+      "name": "teclado",
+      "precio": 3000,
+      "stock": 12
+    }
+  ],
+  "facturas": [
+    {
+      "id": 1,
+      "cliente_id": 1,
+      "fecha": "2024-11-19",
+      "items": [
+        {
+          "producto_id": 1,
+          "cantidad": 1,
+          "subtotal": 1500
+        },
+        {
+          "producto_id": 2,
+          "cantidad": 2,
+          "subtotal": 40
+        }
+      ],
+      "total": 1540,
+      "estado": "Pagado"
+    },
+    {
+      "id": 2,
+      "cliente_id": 2,
+      "fecha": "2024-11-19",
+      "items": [
+        {
+          "producto_id": 2,
+          "cantidad": 5,
+          "subtotal": 100
+        }
+      ],
+      "total": 90,
+      "estado": "Pendiente"
+    },
+    {
+      "id": 3,
+      "cliente_id": 4,
+      "fecha": "2024-11-20T23:44:20.161Z",
+      "items": [
+        {
+          "producto_id": 1,
+          "cantidad": 14,
+          "subtotal": 21000
+        },
+        {
+          "producto_id": 2,
+          "cantidad": 44,
+          "subtotal": 880
+        }
+      ],
+      "total": 21880,
+      "estado": "Pendiente"
+    },
+    {
+      "id": 4,
+      "cliente_id": 4,
+      "fecha": "2024-11-20T23:44:21.876Z",
+      "items": [
+        {
+          "producto_id": 1,
+          "cantidad": 14,
+          "subtotal": 21000
+        },
+        {
+          "producto_id": 2,
+          "cantidad": 44,
+          "subtotal": 880
+        }
+      ],
+      "total": 21880,
+      "estado": "Pendiente"
+    },
+    {
+      "id": 5,
+      "cliente_id": 4,
+      "fecha": "2024-11-20T23:45:08.697Z",
+      "items": [
+        {
+          "producto_id": 1,
+          "cantidad": 14,
+          "subtotal": 21000
+        },
+        {
+          "producto_id": 2,
+          "cantidad": 44,
+          "subtotal": 880
+        }
+      ],
+      "total": 21880,
+      "estado": "Pendiente"
+    },
+    {
+      "id": 6,
+      "cliente_id": 4,
+      "fecha": "2024-11-20T23:45:49.332Z",
+      "items": [
+        {
+          "producto_id": 1,
+          "cantidad": 14,
+          "subtotal": 21000
+        },
+        {
+          "producto_id": 2,
+          "cantidad": 44,
+          "subtotal": 880
+        }
+      ],
+      "total": 21880,
+      "estado": "Pendiente"
+    },
+    {
+      "id": 7,
+      "cliente_id": 4,
+      "fecha": "2024-11-20T23:46:56.795Z",
+      "items": [
+        {
+          "producto_id": 1,
+          "cantidad": 14,
+          "subtotal": 21000
+        },
+        {
+          "producto_id": 2,
+          "cantidad": 44,
+          "subtotal": 880
+        }
+      ],
+      "total": 21880,
+      "estado": "Pendiente"
+    }
+  ],
+  "recibos": [
+    {
+      "id": 1,
+      "factura_id": 2,
+      "fecha": "2024-11-20",
+      "monto": 100,
+      "metodo_pago": "Tarjeta de crédito"
+    },
+    {
+      "id": 2,
+      "factura_id": 2,
+      "fecha": "2024-11-20T23:51:16.001Z",
+      "monto": 10,
+      "metodo_pago": "Tarjeta de debito"
+    }
+  ]
+}
